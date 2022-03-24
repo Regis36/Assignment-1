@@ -127,7 +127,7 @@ class Points3D {
       if(some_points.size_ == 0)
       {
           //if empty, do nothing, throw an error message
-          out << "( )" ;
+          out << "()" ;
       }
       
       for(size_t i = 0; i < some_points.size_ ; i++)
