@@ -138,7 +138,7 @@ class Points3D {
               out <<  some_points.sequence_[i][1] ;
               out << ", " ;
               out <<some_points.sequence_[i][2];
-              out << ")" ; 
+              out << ")" << " "; 
       }
       out << std::endl;
       return out;
